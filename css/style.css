@@ -1,40 +1,54 @@
-.navbar {
-    background-color: rgb(142, 62, 153);
+h1 {
+    color: rgb(82, 2, 173);
+    font-size: 4em;
 }
 
-.nav-link {
-    color: white;
-    
-    text-transform: uppercase;
-    font-size: small;
-    font-weight: bolder;
+#welcome {
+    margin: 16em 0px 0px 11em;
+    width: 50em;
 }
 
-.active {
-    font-size: large;
-}
-
-main {
-
-}
-
-body {
-    background-color:rgb(132, 193, 218);
-    
-}
-
-.profile {  
-    float: right;
+img {
     opacity: 0.1;
-    height: 100%;
-    min-height: 100vh;
+    max-width: 45em;
 }
 
-.profile:hover {
+img:hover {
     opacity: 1;
 }
 
-h1 {
-    color: white;
-    float: left;
+
+.ct-btn-scroll {
+    display: flex;
+    justify-content: center;
+    margin-top: 11em;
 }
+
+.arrowitem {
+    width: 10em;
+}
+
+.item {
+    display: flex;
+}
+
+.rightitem {
+    justify-content: flex-end;
+    padding: 0px 11em 0px 0px;
+}
+
+.leftitem {
+    justify-content: flex-start;
+    padding: 0px 0em 0px 11em;
+}
+
+h2 {
+    color: rgb(82, 2, 173);
+    text-align: center;
+}
+
+.imageitem {
+    border: circle(50%);
+    border-radius: 50%;
+}
+
