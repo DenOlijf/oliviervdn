@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(142, 62, 153);
+}
+
+.nav-link {
+    color: white;
+    
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.active {
+    font-size: large;
+}
+
+main {
+
+}
+
+body {
+    background-color:rgb(132, 193, 218);
+    
+}
+
+.profile {  
+    float: right;
+    opacity: 0.1;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.profile:hover {
+    opacity: 1;
+}
+
+h1 {
+    color: white;
+    float: left;
+}
